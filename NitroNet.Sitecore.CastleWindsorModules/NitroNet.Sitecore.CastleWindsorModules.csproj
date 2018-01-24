@@ -75,6 +75,12 @@
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.9.0.171219\lib\NET462\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Mvc.NoReferences.9.0.171219\lib\NET462\Sitecore.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -97,18 +103,7 @@
         </Reference>
       </ItemGroup>
     </When>
-    <When Condition="'$(Configuration)' == 'Release-SC82' Or '$(Configuration)' == 'Debug-SC82'">
-      <ItemGroup>
-        <Reference Include="Sitecore.Kernel">
-          <SpecificVersion>False</SpecificVersion>
-          <HintPath>..\Libs\SC82\Sitecore.Kernel.dll</HintPath>
-        </Reference>
-        <Reference Include="Sitecore.Mvc">
-          <SpecificVersion>False</SpecificVersion>
-          <HintPath>..\Libs\SC82\Sitecore.Mvc.dll</HintPath>
-        </Reference>
-      </ItemGroup>
-    </When>
+    <When Condition="'$(Configuration)' == 'Release-SC82' Or '$(Configuration)' == 'Debug-SC82'" />
     <Otherwise>
       <ItemGroup>
         <Reference Include="Sitecore.Kernel">
