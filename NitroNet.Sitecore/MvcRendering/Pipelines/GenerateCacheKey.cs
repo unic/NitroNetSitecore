@@ -1,6 +1,6 @@
 ﻿namespace NitroNet.Sitecore.MvcRendering.Pipelines
 {
-    public class GenerateCacheKey : global::Sitecore.Support.Mvc.Pipelines.Response.RenderRendering.GenerateCacheKey
+    public class GenerateCacheKey : global::Sitecore.Mvc.Pipelines.Response.RenderRendering.GenerateCacheKey
     {
         protected override string GetDataPart(global::Sitecore.Mvc.Presentation.Rendering rendering)
         {

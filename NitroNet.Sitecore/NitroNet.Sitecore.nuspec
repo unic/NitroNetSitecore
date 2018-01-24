@@ -17,12 +17,6 @@
     </dependencies>
     <references>
       <reference file="NitroNet.Sitecore.dll"/>
-      <reference file="Sitecore.Support.387950.dll"/>
-      <reference file="Sitecore.Support.414987.dll"/>
     </references>
   </metadata>
-  <files>
-    <file src="..\Libs\Support\Sitecore.Support.387950.dll" target="lib\net452"/>
-    <file src="..\Libs\Support\Sitecore.Support.414987.dll" target="lib\net452"/>
-  </files>
 </package>
