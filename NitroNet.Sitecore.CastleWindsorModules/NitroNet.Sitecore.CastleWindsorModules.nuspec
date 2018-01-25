@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>$id$.$productVersion$</id>
+    <id>$id$</id>
     <version>$version$</version>
     <authors>Namics AG</authors>
     <owners>Namics AG</owners>
@@ -13,9 +13,9 @@
     <copyright>Copyright 2017</copyright>
     <tags>nitro sitecore castle windsor handlebars viewengine</tags>
     <dependencies>
-      <dependency id="NitroNet.Core" version="$dependentNitroNetVersion$" />
-      <dependency id="NitroNet.CastleWindsorModules" version="$dependentNitroNetVersion$" />
-      <dependency id="NitroNet.Sitecore.$productVersion$" version="$dependentVersion$" />
+      <dependency id="NitroNet.Core" version="1.1.2" />
+      <dependency id="NitroNet.CastleWindsorModules" version="1.1.2" />
+      <dependency id="NitroNet.Sitecore" version="$version$" />
     </dependencies>
   </metadata>
 </package>
